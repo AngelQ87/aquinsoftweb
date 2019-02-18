@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
+import Navigationbar from './components/Navigationbar';
+import Footer from './components/Footer';
 
 
 class App extends Component {
@@ -8,12 +10,14 @@ class App extends Component {
     
 
     return (
-      <div className="App">
-        <header className="App-header">          
+      <div className="App"> 
+        <Navigationbar/>        
+        <header className="App-header">                  
           <p>
             AQuinsoft Solutions
           </p>         
-        </header>       
+        </header>
+        <Footer/>       
       </div>
     );
   }
