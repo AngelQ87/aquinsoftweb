@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Navigationbar from './components/Navigationbar';
 import Footer from './components/Footer';
+import Header from './components/Header';
 
 
 class App extends Component {
@@ -11,11 +12,13 @@ class App extends Component {
 
     return (
       <div className="App"> 
-        <Navigationbar/>        
-        <header className="App-header">                  
+        <Navigationbar/>
+        <Header/>        
+        <header className="App-header">                          
           <p>
             AQuinsoft Solutions
-          </p>         
+          </p>
+          <img src="./images/DSC_0428.JPG"/>                   
         </header>
         <Footer/>       
       </div>
