@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './navigationbar.css';
+import {Link} from 'react-router-dom';
+import Contacto from './Contacto';
 
 
 
@@ -14,9 +16,9 @@ class Navigationbar extends Component {
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNav">
-                        <ul className="navbar-nav ml-auto">
-                            <li className="nav-item active">
-                                <a className="nav-link" href="#">Inicio</a>
+                        <ul className="navbar-nav ml-auto">                        
+                            <li className="nav-item active">                                
+                                <a className="nav-link" href="/">Inicio</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Startup</a>
