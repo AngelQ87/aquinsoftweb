@@ -11,10 +11,10 @@ class App extends Component {
 
     return (
       <div className="App"> 
-        <Navigationbar/>           
+        <Navigationbar/>                
         <header className="App-header">                          
           <p>
-            AQuinsoft Solutions
+            AQuinsoft Solutions Inicio
           </p>
           <img src="./images/DSC_0428.JPG"/>                   
         </header>
