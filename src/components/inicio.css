@@ -13,5 +13,19 @@
   color: white;
 }
 
+#prueba{
+  background-image: url("../images/computer.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  opacity: 0.2;
+}
+
+#inicio{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);  
+  color: white;
+  }
 
 

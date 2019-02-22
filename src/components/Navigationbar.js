@@ -21,7 +21,7 @@ class Navigationbar extends Component {
                                 <a className="nav-link" href="/">Inicio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Startup</a>
+                                <a class="nav-link" href="#">Nosotros</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="#">Contactos</a>

@@ -17,19 +17,8 @@ class App extends Component {
     return (
       <div className="App">
         <Navigationbar />
-        <div className="container-fluid" id="body">
-          <div className="row">
-          <div className="col-md-6">
-            <p>
-              AQuinsoft Solutions
-          </p>
-          </div>
-          <div className="col-md-6">
-            <p>lorem isu impom</p>
-          </div>
-          </div>
-        </div>
-        <Footer/>
+        <Inicio/>
+        <Footer/>        
       </div>
     );
   }
