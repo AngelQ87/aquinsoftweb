@@ -19,7 +19,7 @@ class App extends Component {
         <Navigationbar />
         <Inicio/>
         <Footer/>        
-      </div>
+      </div>      
     );
   }
 }

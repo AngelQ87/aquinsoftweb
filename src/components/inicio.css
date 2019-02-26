@@ -1,31 +1,33 @@
-.App {
-  text-align: center;
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-#prueba{
+.container-fluiddd{
   background-image: url("../images/computer.jpg");
-  background-repeat: no-repeat;
   background-size: 100% 100%;
-  opacity: 0.2;
+  background-repeat: no-repeat;
+  background:  rgba(48, 51, 107,.2);
 }
 
-#inicio{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);  
-  color: white;
+.inicio{
+    width: 100%;
+    height: 530px;
+    align-items: center;
+    
+  }
+
+.polaroid {
+    width: 284px;
+    height: 60%;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    color: #000;
+  }
+  
+.rotate_right {
+    float: left;
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Safari */
+    transform: rotate(7deg);    
   }
 
 
