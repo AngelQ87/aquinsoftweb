@@ -8,12 +8,11 @@
 
 .inicio{
     min-width: 100%;
-    height: 530px;
+    height: auto;
     align-items: center;
-    background-size: 100% 100%;
-    background-image: url("../images/15.jpg");
-    background-repeat: no-repeat;
-    ;
+    padding: 40px;
+    background:  rgba(48, 51, 107,.2);    
+    
   }
 
 .polaroid {
@@ -30,7 +29,23 @@
     float: left;
     -ms-transform: rotate(7deg); /* IE 9 */
     -webkit-transform: rotate(7deg); /* Safari */
-    transform: rotate(7deg);    
+    transform: rotate(7deg); 
+    justify-content: center;      
+  }
+
+  .rotate_left {
+    float: right;
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Safari */
+    transform: rotate(-7deg); 
+    justify-content: center;   
   }
 
 
+.cuadro{
+  color: aqua; 
+  
+}
+ .jumbotron-row {
+  padding-top: 20px;   
+ }

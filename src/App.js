@@ -15,11 +15,11 @@ class App extends Component {
 
 
     return (
-      <div className="App">
-        <Navigationbar />
-        <Inicio/>
-        <Footer/>        
-      </div>      
+      <div className="App">     
+                
+          <Inicio />       
+                  
+      </div>
     );
   }
 }

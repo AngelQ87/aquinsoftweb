@@ -19,10 +19,7 @@ class Navigationbar extends Component {
                         <ul className="navbar-nav ml-auto">                        
                             <li className="nav-item active">                                
                                 <a className="nav-link" href="/">Inicio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Nosotros</a>
-                            </li>
+                            </li>                            
                             <li className="nav-item">
                                 <a className="nav-link" href="#">Contactos</a>
                             </li>
