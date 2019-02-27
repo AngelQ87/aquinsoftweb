@@ -11,13 +11,13 @@ class Inicio extends Component {
 
 
     return (
-      <div className="Container-fluid">
-       
-        <Navigationbar/>
-       
+      <div className="container-fluid">
+        <div className="row">
+          <Navigationbar />
+        </div>
         <div className="row inicio">
-          <div className="col-md-6 polaroid rotate_left">
-            <img src={imagen} width="80%" height="80%" />
+          <div className="col-md-6 polaroid rotate_left rounded">
+            <img src={imagen} className="img-fluid" />
             <p>
               Somos una startup joven que vive las necesidades
               del cliente como suyas donde creamos productos
@@ -26,42 +26,46 @@ class Inicio extends Component {
             </p>
           </div>
           <div className="col-md-6">
-            <p className="cuadro polaroid rotate_left">
+            <p className="polaroid rotate_left rounded-pill text-primary">
               Sistemas
             </p>
-            <p className="polaroid rotate_right">
+            <p className="polaroid rotate_right rounded-pill">
               Websites
             </p>
-            <p className="cuadro polaroid rotate_left">
+            <p className="polaroid rotate_left rounded-pill text-danger">
               Front-end
-            </p>                                
-            <p className="cuadro polaroid rotate_right">
+            </p>
+            <p className="polaroid rotate_right rounded-pill text-success">
               Back-end
-            </p>                                 
-            <p className="polaroid rotate_left">
+            </p>
+            <p className="polaroid rotate_left rounded-pill text-warning">
               Mobile-apps
-            </p>            
+            </p>
           </div>
-          
-        <div className="row jumbotron-row"> 
-        <div className="col-md-3"></div>
-        <div className="col-md-6">
-          <div className="jumbotron">
-        <p>
-              Somos una startup joven que vive las necesidades
-              del cliente como suyas donde creamos productos
-              profesionales de alta calidad para un mercado
-              excepcionalmente competitivo.
+
+          <div className="row jumbotron-row rounded">
+            <div className="col-md-3"></div>
+            <div className="col-md-6">
+              <div className="jumbotron">
+                <p>
+                  Somos una startup joven que vive las necesidades
+                  del cliente como suyas donde creamos productos
+                  profesionales de alta calidad para un mercado
+                  excepcionalmente competitivo.
         </p>
+              </div>
+            </div>
+            <div className="col-md-3"></div>
+          </div>
+
         </div>
+        <div className="row">
+          <Footer />
         </div>
-        <div className="col-md-3"></div>
-        </div>
-        </div>        
-        
-        <Footer/>
+
+
       </div>
-      
+
 
     );
   }

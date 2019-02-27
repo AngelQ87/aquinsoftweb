@@ -2,7 +2,11 @@
   padding: 10px;
   box-shadow: 5px 10px 18px #000000;
   opacity: .8;
+  
 }
 
+.navigation {
 
+  min-width: 100%;
+}
 

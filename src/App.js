@@ -15,10 +15,10 @@ class App extends Component {
 
 
     return (
-      <div className="App">     
-                
-          <Inicio />       
-                  
+      <div className="App">   
+             
+          <Inicio/>  
+                           
       </div>
     );
   }

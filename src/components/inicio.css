@@ -7,11 +7,12 @@
 }
 
 .inicio{
-    min-width: 100%;
+    max-width: auto;
     height: auto;
     align-items: center;
-    padding: 40px;
-    background:  rgba(48, 51, 107,.2);    
+    padding: 40px;       
+    background:  rgba(48, 51, 107,.2);
+    
     
   }
 
@@ -42,10 +43,8 @@
   }
 
 
-.cuadro{
-  color: aqua; 
-  
-}
+
  .jumbotron-row {
   padding-top: 20px;   
  }
+
