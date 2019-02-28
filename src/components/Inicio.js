@@ -4,6 +4,8 @@ import Navigationbar from './Navigationbar';
 import Footer from './Footer';
 import imagen from '../images/44.jpg';
 import imagenidea from '../images/83.jpg';
+import Zoom from 'react-reveal/Zoom';
+import Fade from 'react-reveal/Fade';
 
 
 class Inicio extends Component {
@@ -17,7 +19,9 @@ class Inicio extends Component {
           <Navigationbar />
         </div>
         <div className="row inicio mt-5">
+        
           <div className="col-md-6 polaroid rotate_left rounded">
+          <Zoom>
             <img src={imagen} className="img-fluid" />
             <p>
               Somos una startup joven que vive las necesidades
@@ -25,7 +29,9 @@ class Inicio extends Component {
               profesionales de alta calidad para un mercado
               excepcionalmente competitivo.
             </p>
+            </Zoom>
           </div>
+          
           <div className="col-md-6">
             <p className="polaroid rotate_left rounded-pill text-primary">
               Sistemas
@@ -99,7 +105,9 @@ class Inicio extends Component {
                   </form>
                 </div>
                 <div className="col-md-6 my-auto">
+                <Fade right>
                  <img src={imagenidea} className="img-fluid rounded-circle"/>
+                </Fade>
                 </div>
 
               </div>
