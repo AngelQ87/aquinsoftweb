@@ -23,7 +23,7 @@ class Inicio extends Component {
           <div className="col-md-6 polaroid rotate_left rounded">
           <Zoom>
             <img src={imagen} className="img-fluid" />
-            <p>
+            <p className="mt-2">
               Somos una startup joven que vive las necesidades
               del cliente como suyas donde creamos productos
               profesionales de alta calidad para un mercado

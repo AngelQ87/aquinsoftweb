@@ -4,6 +4,7 @@
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background:  rgba(48, 51, 107,.2);
+  opacity: .2;
 }
 
 .inicio{
@@ -12,6 +13,7 @@
     align-items: center;
     padding: 40px;       
     background:  rgba(48, 51, 107,.2);
+    
     
     
   }
