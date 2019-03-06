@@ -8,6 +8,7 @@ import Zoom from 'react-reveal/Zoom';
 import Fade from 'react-reveal/Fade';
 
 
+
 class Inicio extends Component {
   render() {
 
@@ -32,22 +33,22 @@ class Inicio extends Component {
             </Zoom>
           </div>
           
-          <div className="col-md-6">
+          <div className="col-md-6">          
             <p className="polaroid rotate_left rounded-pill text-primary">
               Sistemas
-            </p>
+            </p>                   
             <p className="polaroid rotate_right rounded-pill">
               Websites
-            </p>
+            </p>          
             <p className="polaroid rotate_left rounded-pill text-danger">
               Front-end
-            </p>
+            </p>            
             <p className="polaroid rotate_right rounded-pill text-success">
               Back-end
-            </p>
+            </p>          
             <p className="polaroid rotate_left rounded-pill text-warning">
               Mobile-apps
-            </p>
+            </p>           
           </div>
 
           <div className="row jumbotron-row rounded">
