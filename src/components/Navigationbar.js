@@ -19,6 +19,9 @@ class Navigationbar extends Component {
                         <ul className="navbar-nav ml-auto">                        
                             <li className="nav-item active">                                
                                 <a className="nav-link" href="#home">Inicio</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#jumbotron">Nosotros</a>
                             </li>                            
                             <li className="nav-item">
                                 <a className="nav-link" href="#contacto">Contacto</a>

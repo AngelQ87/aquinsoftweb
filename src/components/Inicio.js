@@ -53,12 +53,14 @@ class Inicio extends Component {
           <div className="row jumbotron-row rounded">
             <div className="col-md-3"></div>
             <div className="col-md-6">
-              <div className="jumbotron">
+              <div className="jumbotron" id="jumbotron">
+                <h2>AQuinsoft Solutions</h2>
                 <p>
-                  Somos una startup joven que vive las necesidades
-                  del cliente como suyas donde creamos productos
-                  profesionales de alta calidad para un mercado
-                  excepcionalmente competitivo.
+                   Es una startup de desarrollo de software con sede en Quito, 
+                  la cual esta integrada ahora en sus inicios por ingenieros cubanos. Nuestra tarea 
+                  principal es proporcionar la máxima flexibilidad y confiabilidad a nuestros 
+                  clientes ofreciendo soluciones individuales y generales. Nos centramos en el 
+                  desarrollo de soluciones para pequeñas, medianas y grandes empresas.
                 </p>
               </div>
             </div>
@@ -70,17 +72,10 @@ class Inicio extends Component {
           <section id="section1">
             <div className="container">
               <p className="h3">
-                Somos una startup joven que vive las necesidades
-                del cliente como suyas donde creamos productos
-                profesionales de alta calidad para un mercado
-                excepcionalmente competitivo. Somos una startup joven que vive las necesidades
-                del cliente como suyas donde creamos productos
-                profesionales de alta calidad para un mercado
-                excepcionalmente competitivo. Somos una startup joven que vive las necesidades
-                del cliente como suyas donde creamos productos
-                profesionales de alta calidad para un mercado
-                excepcionalmente competitivo.
-          </p>
+                Tu idea se convierte en un proyecto para nosotros en la que 
+                procedemos a darle una respuesta rápida a sus requerimientos. 
+                Comentenos...
+              </p>
             </div>
           </section>
         </div>
