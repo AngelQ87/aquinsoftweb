@@ -49,6 +49,13 @@
  .jumbotron-row {
   padding-top: 20px;   
   text-align: justify;
+  
+ }
+
+ .jumbotron {
+  border: 1px solid #BFBFBF;  
+  box-shadow: 10px 10px 5px #aaaaaa;
+  color: #000;
  }
 
  .jumbotron-row h2 {
@@ -59,5 +66,10 @@
  section {
    width: 100%;
    padding: 20px;
-   background-color: darkgray;
+   background-image: url("../images/86.jpg");
+   background-size: 100% 100%;
+   background-repeat: no-repeat; 
+  
  }
+
+ 

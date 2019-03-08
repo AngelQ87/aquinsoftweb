@@ -53,6 +53,7 @@ class Inicio extends Component {
           <div className="row jumbotron-row rounded">
             <div className="col-md-3"></div>
             <div className="col-md-6">
+              <Fade bottom>
               <div className="jumbotron" id="jumbotron">
                 <h2>AQuinsoft Solutions</h2>
                 <p>
@@ -63,26 +64,26 @@ class Inicio extends Component {
                   desarrollo de soluciones para pequeñas, medianas y grandes empresas.
                 </p>
               </div>
+              </Fade>
             </div>
             <div className="col-md-3"></div>
           </div>
 
         </div>
+        
         <div className="row">
-          <section id="section1">
-            <div className="container">
-              <p className="h3">
+          <section id="contacto">
+          <div className="container">
+              <p className="h3 text-white p-3">
                 Tu idea se convierte en un proyecto para nosotros en la que 
                 procedemos a darle una respuesta rápida a sus requerimientos. 
                 Comentenos...
               </p>
             </div>
-          </section>
-        </div>
-        <div className="row">
-          <section id="contacto">
+            
             <div className="container">
               <div className="row">
+              <Fade top>
                 <div className="col-md-6">
                   <form className="card">
                     <div className="card-body">
@@ -99,6 +100,7 @@ class Inicio extends Component {
                     </div>
                   </form>
                 </div>
+                </Fade>
                 <div className="col-md-6 my-auto">
                 <Fade right>
                  <img src={imagenidea} className="img-fluid rounded-circle"/>
@@ -107,6 +109,7 @@ class Inicio extends Component {
 
               </div>
             </div>
+            
           </section>
         </div>
         <div className="row">
