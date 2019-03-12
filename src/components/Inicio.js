@@ -26,24 +26,26 @@ class Inicio extends Component {
     super(props);
 
     this.state= {
-      nombre: 'null',
-      email: 'null',
-      mensaje: 'null'
+      nombre: "",
+      email: "",
+      mensaje: ""
     };
 
-    this.enviar = this.enviar.bind(this);   
+    this.enviar_formulario = this.enviar_formulario.bind(this);   
   }
 
    
 
 
-   enviar(){   
+   enviar_formulario(){   
     firebase.database().ref("propuestas").set({
       nombre: this.state.nombre,
       email: this.state.email,
       mensaje: this.state.mensaje,
     });
-     console.log("Boton");
+     
+    
+    
    }
 
   
@@ -124,7 +126,7 @@ class Inicio extends Component {
                 <div className="col-md-6">
                   <form className="card">
                     <div className="card-body">
-                      <div className="form-group">
+                      <div value={this.state.nombre} className="form-group" ref="ref_nombre">
                         <input id="card_nombre" onChange={
                           event=>{this.setState({nombre:event.target.value}); }
                         }  className="form-control" type="text" placeholder="Nombre" />                        
@@ -139,7 +141,7 @@ class Inicio extends Component {
                           event=>{this.setState({mensaje:event.target.value}); }
                         } className="form-control" type="text" rows="10" cols="50" placeholder="Mensaje"/>                        
                       </div>
-                      <button onSubmit={this.enviar()} className="btn btn-outline-secondary">Enviar</button>
+                      <button onSubmit={this.enviar_formulario()} className="btn btn-outline-secondary">Enviar</button>
                     </div>
                   </form>
                 </div>
