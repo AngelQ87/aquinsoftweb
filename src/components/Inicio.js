@@ -26,7 +26,9 @@ class Inicio extends Component {
     super(props);
 
     this.state= {
-      valor: '0'
+      nombre: 'null',
+      email: 'null',
+      mensaje: 'null'
     };
 
     this.enviar = this.enviar.bind(this);   
@@ -37,9 +39,9 @@ class Inicio extends Component {
 
    enviar(){   
     firebase.database().ref("propuestas").set({
-      nombre: "nombre prueba",
-      email: "email prueba",
-      mensaje: "texto prueba",
+      nombre: this.state.nombre,
+      email: this.state.email,
+      mensaje: this.state.mensaje,
     });
      console.log("Boton");
    }
@@ -123,13 +125,19 @@ class Inicio extends Component {
                   <form className="card">
                     <div className="card-body">
                       <div className="form-group">
-                        <input className="form-control" type="text" placeholder="Nombre" />                        
+                        <input id="card_nombre" onChange={
+                          event=>{this.setState({nombre:event.target.value}); }
+                        }  className="form-control" type="text" placeholder="Nombre" />                        
                       </div>
                       <div className="form-group">
-                        <input className="form-control" type="email" placeholder="Email" />                        
+                        <input id="card_email" onChange={
+                          event=>{this.setState({email:event.target.value}); }
+                        } className="form-control" type="email" placeholder="Email" />                        
                       </div>
                       <div className="form-group">
-                        <textarea className="form-control" type="text" rows="10" cols="50" placeholder="Mensaje"/>                        
+                        <textarea id="card_mensaje" onChange={
+                          event=>{this.setState({mensaje:event.target.value}); }
+                        } className="form-control" type="text" rows="10" cols="50" placeholder="Mensaje"/>                        
                       </div>
                       <button onSubmit={this.enviar()} className="btn btn-outline-secondary">Enviar</button>
                     </div>
